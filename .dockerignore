@@ -1,0 +1,61 @@
+# Dependencies
+node_modules
+vendor
+
+# Development files
+.git
+.gitignore
+.gitattributes
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+UPGRADE.md
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+storage/logs/*
+
+# Cache files
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+bootstrap/cache/*
+
+# Testing
+tests
+phpunit.xml
+.phpunit.result.cache
+
+# Build artifacts
+public/build/*
+public/mix-manifest.json
+
+# Development tools
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile.dev
+
+# Documentation
+docs
+
+# Temporary files
+tmp
+temp
