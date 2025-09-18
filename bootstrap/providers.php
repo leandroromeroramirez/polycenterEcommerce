@@ -10,6 +10,7 @@ return [
      * Webkul's service providers.
      */
     Polycenter\SIIGO\Providers\SIIGOServiceProvider::class,
+    Polycenter\MessagingShipping\Providers\MessagingShippingServiceProvider::class,
     Webkul\Admin\Providers\AdminServiceProvider::class,
     Webkul\Attribute\Providers\AttributeServiceProvider::class,
     Webkul\BookingProduct\Providers\BookingProductServiceProvider::class,
